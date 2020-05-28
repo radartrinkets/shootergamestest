@@ -11,8 +11,12 @@
 			<a-assets>
 				<img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossorigin="anonymous">
 
-				<a-gltf-model id="ghost" src="assets/rubberduck/scene.gltf" scale="0.1 0.1 0.1"></a-gltf-model>
+
+
+				<a-asset-item id="ghost" src="assets/rubberduck/scene.gltf" scale="0.2 0.2 0.2"></a-asset-item>
 			</a-assets>
+
+			<a-gltf-model src="#ghost"></a-gltf-model>
 
 			<a-sky src="#skyTexture" theta-length="90" radius="30"></a-sky>
 
